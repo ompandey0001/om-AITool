@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Developer Resources</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Developer's Journey</h1>
+        <p>Your guide to finding the right platforms for your development journey.</p>
+        <input type="text" id="search" placeholder="Search for platforms...">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#web-development" onclick="redirectTo('web-development')">Web Development</a></li>
+            <li><a href="#mobile-development" onclick="redirectTo('mobile-development')">Mobile Development</a></li>
+            <li><a href="#data-science" onclick="redirectTo('data-science')">Data Science</a></li>
+            <li><a href="#ai" onclick="redirectTo('ai')">AI Tools</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="web-development">
+            <h2>Web Development Platforms</h2>
+            <div class="platform">
+                <h3><i class="fas fa-laptop-code"></i> Codecademy</h3>
+                <p>Learn web development with interactive courses.</p>
+                <a href="https://www.codecademy.com" target="_blank" class="btn">Visit Codecademy</a>
+            </div>
+            <div class="platform">
+                <h3><i class="fas fa-book-open"></i> freeCodeCamp</h3>
+                <p>Learn to code for free with interactive lessons.</p>
+                <a href="https://www.freecodecamp.org" target="_blank" class="btn">Visit freeCodeCamp</a>
+            </div>
+            <div class="platform">
+                <h3><i class="fas fa-chalkboard-teacher"></i> W3Schools</h3>
+                <p>Web development tutorials and references.</p>
+                <a href="https://www.w3schools.com" target="_blank" class="btn">Visit W3Schools</a>
+            </div>
+        </section>
+
+        <section id="mobile-development">
+            <h2>Mobile Development Platforms</h2>
+            <div class="platform">
+                <h3><i class="fas fa-mobile-alt"></i> Udacity</h3>
+                <p>Nanodegree programs for mobile development.</p>
+                <a href="https://www.udacity.com" target="_blank" class="btn">Visit Udacity</a>
+            </div>
+            <div class="platform">
+                <h3><i class="fas fa-graduation-cap"></i> Coursera</h3>
+                <p>Online courses from top universities.</p>
+                <a href="https://www.coursera.org" target="_blank" class="btn">Visit Coursera</a>
+            </div>
+            <div class="platform">
+                <h3><i class="fas fa-book"></i> edX</h3>
+                <p>Learn mobile app development from industry leaders.</p>
+                <a href="https://www.edx.org" target="_blank" class="btn">Visit edX</a>
+            </div>
+        </section>
+
+        <section id="data-science">
+            <h2>Data Science Platforms</h2>
+            <div class="platform">
+                <h3><i class="fas fa-chart-line"></i> Coursera</h3>
+                <p>Online courses from top universities.</p>
+                <a href="https://www.coursera.org" target="_blank " class="btn">Visit Coursera</a>
+            </div>
+            <div class="platform">
+                <h3><i class="fas fa-database"></i> DataCamp</h3>
+                <p>Interactive courses for data science and analytics.</p>
+                <a href="https://www.datacamp.com" target="_blank" class="btn">Visit DataCamp</a>
+            </div>
+            <div class="platform">
+                <h3><i class="fas fa-tasks"></i> Kaggle</h3>
+                <p>Learn data science through competitions and datasets.</p>
+                <a href="https://www.kaggle.com" target="_blank" class="btn">Visit Kaggle</a>
+            </div>
+        </section>
+
+        <section id="ai">
+            <h2>AI Tools</h2>
+            <div class="platform">
+                <h3><i class="fas fa-robot"></i> Blackbox AI</h3>
+                <p>Revolutionize your coding with AI assistance.</p>
+                <a href="https://www.blackbox.ai" target="_blank" class="btn">Visit Blackbox AI</a>
+            </div>
+            <div class="platform">
+                <h3><i class="fas fa-brain"></i> OpenAI</h3>
+                <p>Explore AI models and tools for various applications.</p>
+                <a href="https://www.openai.com" target="_blank" class="btn">Visit OpenAI</a>
+            </div>
+            <div class="platform">
+                <h3><i class="fas fa-cloud"></i> Google AI</h3>
+                <p>Resources and tools for AI development.</p>
+                <a href="https://ai.google" target="_blank" class="btn">Visit Google AI</a>
+            </div>
+            <div class="platform">
+                <h3><i class="fas fa-cogs"></i> IBM Watson</h3>
+                <p>AI tools and services for developers.</p>
+                <a href="https://www.ibm.com/watson" target="_blank" class="btn">Visit IBM Watson</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p style="margin-top: 20px;">Made by Om Pandey</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
